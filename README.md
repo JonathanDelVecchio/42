@@ -22,3 +22,6 @@ This macro is able to take Excel data, mailmerge it in Word, and then print a PD
 
 ## [TorontoNeighborhood.ipyn](https://github.com/JonathanDelVecchio/42/blob/main/TorontoNeighborhood.ipynb)
 This is a capstone project I did that builds an interactive map for all Toronto neighborhoods
+
+## [Covid19](https://github.com/JonathanDelVecchio/42/blob/main/Covid19.ipynb)
+This is a capstone project I did that builds an interactive map for covid cases in the United States
