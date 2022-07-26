@@ -20,3 +20,5 @@ computing solutions. The work in here is meant to inspire individuals to solve p
 ## [Mail_MergeMacro.vb](https://github.com/JonathanDelVecchio/42/blob/main/Mail_MergeMacro.vb)
 This macro is able to take Excel data, mailmerge it in Word, and then print a PDF document based on the variables being merged.
 
+## [TorontoNeighborhood.ipyn](https://github.com/JonathanDelVecchio/42/blob/main/TorontoNeighborhood.ipynb)
+This is a capstone project I did that builds an interactive map for all Toronto neighborhoods
