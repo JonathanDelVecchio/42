@@ -17,7 +17,7 @@ is a reference to the computation Deep_thought returned when it answered "the Ul
 the Universe, and Everything." The goal of this repository is to showcase solutions to the problems that were resolved utilizing
 computing solutions. The work in here is meant to inspire individuals to solve problems utilizing computing ability.
 
-## [Mail_MergeMacro.vb](https://github.com/JonathanDelVecchio/42/blob/main/Mail_MergeMacro.vb)
+## [Mail_Merge Macro](https://github.com/JonathanDelVecchio/42/blob/main/Mail_MergeMacro.vb)
 This macro is able to take Excel data, mailmerge it in Word, and then print a PDF document based on the variables being merged.
 
 ## [TorontoNeighborhood](https://github.com/JonathanDelVecchio/42/blob/main/TorontoNeighborhood.ipynb)
