@@ -37,7 +37,7 @@ With MainDoc.MailMerge
             'Tip: Use _ to continue code into next line for cleaner code
             TargetDoc.ExportAsFixedFormat FOLDER_SAVED _
             & .DataSource.DataFields("Borrower_Name").Value _
-            & .DataSource.DataFields("Borrower_Name").Value _
+            & .DataSource.DataFields("Loan_Number").Value _
             & ".pdf", exportformat:=wdExportFormatPDF
             
             'This will export as a PDF format and use the variables that were merged to name the document
