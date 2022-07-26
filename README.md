@@ -1,6 +1,9 @@
 # Welcome
 Thank you for taking the time to stop by [42](https://github.com/MartyMcData/42) repository, this repository is dedicated to completed projects, if you'd like to see active, feel free to check out [Deep_Thought](https://github.com/MartyMcData/Deep_Thought).
 
+## Guide
+Sometimes, a Jupyter notebook can be too large to render, feel free to use this [tool.](https://nbviewer.jupyter.org/)
+
 ## Repository Background
 
 [Deep_Thought](https://github.com/MartyMcData/Deep_Thought)
