@@ -1,0 +1,6 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total,Date
+2,Doctor Who,WA,9.25,Wood,243.00,5.15,4.75,1251.4500,1154.2500,4811.4925,4811.4925,06/02/2013.txt
+3,Albert Einstein,KY,6.00,Carpet,217.00,2.25,2.10,488.2500,455.7000,1887.9600,1887.9600,06/02/2013.txt
+1,Ada Lovelace,CA,25.00,Tile,249.00,3.50,4.15,871.5000,1033.3500,3809.9500,3809.9500,06/01/2013.txt
+1,Jack,Texas,4.45,Wood,150.0,5.15,4.75,772.500,712.500,2970.0445,2970.0445,03/18/2023.txt
+1,Jane Doe,Kentucky,6.00,Wood,200.0,5.15,4.75,1030.000,950.000,3960.060,3960.060,06/23/2023.txt

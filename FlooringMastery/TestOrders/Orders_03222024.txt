@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Jackie Robinson,Texas,4.45,Laminate,200,1.75,2.10,350.00,420.00,1540.0445,1540.0445

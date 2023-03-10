@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Samantha,Texas,4.45,Wood,150.0,5.15,4.75,772.500,712.500,2970.0445,2970.0445
+2,Smith,Kentucky,6.00,Laminate,200.0,1.75,2.10,350.000,420.000,1540.060,1540.060
