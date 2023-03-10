@@ -57,40 +57,43 @@ Jonathan,DelVecchio,205,2023-06-28,2,0
 Write a query that returns a list of rooms, reservation ID, and per-room cost for each reservation. 
 The results should include all rooms, whether or not there is a reservation associated with the room. */
 SELECT r.roomNumberID, rv.reservationID, 
-       (r.basePrice + ((rv.amountAdults + rv.amountChildren) * COALESCE(rt.extraCost, 0))) AS perRoomCost -- Coalsce returns 0, isntead of null
+       (r.basePrice + ((rv.amountAdults + rv.amountChildren - 1) * COALESCE(rt.extraCost, 0))) AS perRoomCost
 FROM room r 
 LEFT JOIN roomType rt ON r.roomTypeID = rt.roomTypeID 
 LEFT JOIN roomReservation rr ON r.roomNumberID = rr.roomNumberID 
-LEFT JOIN reservation rv ON rr.reservationID = rv.reservationID;
+LEFT JOIN reservation rv ON rr.reservationID = rv.reservationID
+GROUP BY r.roomNumberID, rv.reservationID;
 
 /* 
 roomNumberID,reservationID,perRoomCost
-201,40004,239.99
-202,40007,214.99
-203,40002,229.99
-203,40021,239.99
-204,40016,214.99
+roomNumberID,reservationID,perRoomCost
+201,40004,229.99
+202,40007,204.99
+203,40002,219.99
+203,40021,229.99
+204,40016,204.99
 205,40015,174.99
 206,40012,149.99
 206,40023,149.99
 207,40010,174.99
 208,40013,149.99
 208,40020,149.99
-301,40009,209.99
-301,40024,239.99
-302,40006,204.99
-302,40025,194.99
-303,40018,229.99
-304,40014,204.99
+301,40009,199.99
+301,40024,229.99
+302,40006,194.99
+302,40025,184.99
+303,40018,219.99
+304,40014,194.99
 305,40003,174.99
 305,40019,174.99
 306,NULL,NULL
 307,40005,174.99
 308,40001,149.99
-401,40011,519.99
-401,40017,519.99
-401,40022,479.99
+401,40011,499.99
+401,40017,499.99
+401,40022,459.99
 402,NULL,NULL
+
 
 Write a query that returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023. 
 */
